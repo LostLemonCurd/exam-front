@@ -1,0 +1,4 @@
+header ul{
+    display: none;
+    transition: 0.3s;
+}
