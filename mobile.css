@@ -22,8 +22,8 @@ header .btn-blue{
 }
 .intro-cards{
     width: 100%;
-    margin: auto;
 }
 .intro-cards .left{
-    width: 100%;
+    width: 80%;
+    margin: auto;
 }
