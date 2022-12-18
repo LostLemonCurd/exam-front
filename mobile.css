@@ -1,4 +1,4 @@
-header ul{
+header nav{
     display: none;
     transition: 0.3s;
 }
@@ -20,10 +20,10 @@ header .btn-blue{
     opacity: 0.8;
     border-radius: 0;
 }
-.intro-cards{
-    width: 100%;
+.slide-arrow{
+    top: 35%;
 }
-.intro-cards .left{
-    width: 80%;
-    margin: auto;
+.intro-cards .right{
+    display: none;
+    transition: 0.3s;
 }
