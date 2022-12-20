@@ -202,12 +202,13 @@ main{
     transform: translateX(-50%);
 }
 
+/* INTRO-CARDS */
+
 /* INTRO-CARDS LEFT*/
 
 .intro-cards{
     display: flex;
-    width: 80%;
-    margin: 50px auto;
+    margin: 50px 200px;
 }
 .intro-cards .left{
     margin-right: 30px;
@@ -242,12 +243,20 @@ main{
     display: flex;
     margin-bottom: 50px;
 }
-.card-info{
+.left .card .card-img{ 
+    width: 100%;
+    height: 214px;
+}
+.left .card .card-img img{
+    width: 100%;
+    height: 214px;
+}
+.left .card .card-info{
     display: flex;
     flex-direction: column;
     padding-left: 20px;
 }
-.card-info .author{
+.left .card .card-info .author{
     padding-left: 10px;
 }
 
@@ -294,7 +303,7 @@ main{
     height: 20px;
     width: 20px;
 }
-.tags{
+.right .tags{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -303,16 +312,16 @@ main{
     border-radius: 5px;
     padding-left: 10px;
 }
-.tags h2{
+.right .tags h2{
     align-self: flex-start;
 }
-.tag-nav{
+.right .tag-nav{
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
 }
-.tag-nav a{
+.right .tag-nav a{
     color: #495057;
     padding: 10px;
     border: 1px solid #DEE2E6;
@@ -324,7 +333,7 @@ main{
     border-radius: 4px;
     margin: 10px 15px;
 }
-.tag-nav a:hover{
+.right .tag-nav a:hover{
     background-color: #E6F0FF;
     color: #0D6EFD;
 }
@@ -340,10 +349,8 @@ main{
     height: 375px;
 }
 .mid-banner{
-    width: 80%;
-    margin: auto;
+    margin: 0 200px 80px;
     position: relative;
-    margin-bottom: 100px;
 }
 .mid-text{
     display: flex;
@@ -351,7 +358,7 @@ main{
     justify-content: center;
     align-items: flex-start;
     background-color: #FFFF;
-    padding: 20px;
+    padding: 20px 80px 20px 20px;
     border-radius: 5px;
     position: absolute;
     bottom: 50px;
@@ -373,9 +380,9 @@ main{
 .latest{
     display: flex;
     flex-direction: column;
-    width: 80%;
-    margin: 0 auto 50px;
-
+    align-items: center;
+    justify-content: center;
+    margin: 0 200px 50px;
 }
 .latest .latest-title{
     margin-bottom: 50px;
@@ -384,6 +391,14 @@ main{
     display: flex;
     align-items: center;
     margin-bottom: 50px;
+}
+.latest .card-img{
+    width: 100%;
+    height: 250px;
+}
+.latest .card-img img{
+    width: 100%;
+    height: 250px;
 }
 .latest .card .h3-title{
     padding: 10px 30px;
@@ -467,7 +482,6 @@ footer{
     justify-content: space-between;
     align-items: center;
     padding-bottom: 50px;
-    border-bottom: 1px solid #DEE2E6;
     width: 80%;
     margin: auto;
 }
@@ -497,6 +511,7 @@ footer .legal{
     padding: 20px;
     width: 80%;
     margin: auto;
+    border-top: 1px solid #DEE2E6;
 }
 footer .legal .social a{
     padding-right: 20px;

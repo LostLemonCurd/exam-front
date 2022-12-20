@@ -13,17 +13,63 @@ header .btn-blue{
 }
 .slider-text{
     position: absolute;
-    bottom: 0;
+    bottom: 3px;
     left: 0;
     transform: none;
     width: 100%;
     opacity: 0.8;
     border-radius: 0;
+    padding: 0;
+}
+.slider-text .slider-title{
+    padding: 10px;
+}
+.slider-text .author{
+    padding: 0px 10px 10px;
 }
 .slide-arrow{
     top: 35%;
 }
+.intro-cards{
+    margin: 50px 20px;
+}
+.intro-cards .left{
+    margin-right: 0;
+}
+.left .card .card-info{
+    padding-left: 0px;
+}
+.left .card-info .card-title{
+    padding: 5px 10px 10px;
+}
+.left .card-info .card-text{
+    padding: 10px 0px 20px 10px; 
+}
 .intro-cards .right{
     display: none;
     transition: 0.3s;
+}
+.mid-banner{
+    margin: 0 20px 80px;
+}
+.mid-text{
+    right: 7%;
+}
+.latest{
+    margin: 0 20px 50px 20px;
+}
+.latest .card .h3-title{
+    padding: 10px 0 0 10px;
+}
+.latest .card .author{
+    padding: 10px 0 0 10px;
+}
+.latest .card .card-text{
+    padding: 10px 0 0 10px;
+}
+.nl{
+    width: 100%;
+}
+.footer-nav{
+    display: none;
 }
