@@ -11,6 +11,9 @@ header .logo{
 header .btn-blue{
     margin-right: 10px;
 }
+main{
+    padding: 0;
+}
 .slider-text{
     position: absolute;
     bottom: 3px;
@@ -71,5 +74,11 @@ header .btn-blue{
     width: 100%;
 }
 .footer-nav{
+    display: none;
+}
+footer .legal{
+    margin: 0 20px;
+}
+footer .legal strong{
     display: none;
 }

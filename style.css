@@ -154,7 +154,7 @@ header nav a{
 
 main{
     background-color: #EFEFEF;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 /* SLIDER */
@@ -444,7 +444,7 @@ main{
 .nl .formulaire{
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 350px;
 }
 .nl .formulaire label{
     font-family: 'Montserrat';
@@ -475,15 +475,14 @@ main{
 /* FOOTER */
 /* NAV */
 footer{
-    padding: 100px 0 0;
+    padding: 50px 0 0;
 }
 .footer-nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 50px;
-    width: 80%;
-    margin: auto;
+    margin: 0 200px;
 }
 .footer-nav nav{
     display: flex;
@@ -509,8 +508,7 @@ footer .legal{
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    width: 80%;
-    margin: auto;
+    margin: 0 200px;
     border-top: 1px solid #DEE2E6;
 }
 footer .legal .social a{
