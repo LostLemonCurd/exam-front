@@ -11,9 +11,6 @@ header .logo{
 header .btn-blue{
     margin-right: 10px;
 }
-main{
-    padding: 0;
-}
 .slider-text{
     position: absolute;
     bottom: 3px;
@@ -39,36 +36,9 @@ main{
 .intro-cards .left{
     margin-right: 0;
 }
-.left .card .card-info{
-    padding-left: 0px;
-}
-.left .card-info .card-title{
-    padding: 5px 10px 10px;
-}
-.left .card-info .card-text{
-    padding: 10px 0px 20px 10px; 
-}
 .intro-cards .right{
     display: none;
     transition: 0.3s;
-}
-.mid-banner{
-    margin: 0 20px 80px;
-}
-.mid-text{
-    right: 7%;
-}
-.latest{
-    margin: 0 20px 50px 20px;
-}
-.latest .card .h3-title{
-    padding: 10px 0 0 10px;
-}
-.latest .card .author{
-    padding: 10px 0 0 10px;
-}
-.latest .card .card-text{
-    padding: 10px 0 0 10px;
 }
 .nl{
     width: 100%;

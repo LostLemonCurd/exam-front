@@ -403,7 +403,7 @@ main{
 .latest .card-img{
     position: relative;
     width: 445px;
-    padding-bottom: 20%;
+    padding-bottom: 24%;
 
 }
 .latest .card-img img{
@@ -459,7 +459,23 @@ main{
     flex-direction: column;
     width: 350px;
 }
+.nl form{
+    margin-bottom: 15px;
+}
 .nl .formulaire label{
+    border: 1px solid #DEE2E6;
+    border-radius: 5px;
+    padding: 9px;
+    color: #6C757D;
+    background-color: #FFFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 20px;
+} 
+.nl .formulaire button{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -471,18 +487,6 @@ main{
     border-radius: 5px;
     padding: 20px;
     text-align: center;
-}
-.nl .formulaire input{
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    color: #6C757D;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 32px;
-    margin-bottom: 20px;
 }
 
 /* FOOTER */
@@ -519,7 +523,7 @@ footer{
 footer .legal{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 20px 0;
     margin: 0 200px;
     border-top: 1px solid #DEE2E6;
 }
