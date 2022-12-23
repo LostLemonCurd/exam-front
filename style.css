@@ -37,8 +37,8 @@ img{
     font-weight: 400;
     font-size:13px;
     line-height: 24px;
-    padding-left: 5px;
     color: #6C757D;
+    margin-left: 8px;
 }
 .h2-title{
     font-family: 'Montserrat';
@@ -60,14 +60,12 @@ img{
     font-weight: 700;
     font-size: 20px;
     line-height: 28px;
-    padding: 20px 10px 10px;
 }
 .card-text{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size:13px;
     line-height: 24px;
-    padding: 10px 10px 20px;
     color: #6C757D;
 }
 .footer-title{
@@ -186,6 +184,10 @@ main{
 .sa-left{
     left: 45px;
 }
+.sa-left img{
+    position: relative;
+    left: -3px;
+}
 .sa-right{
     right: 0%;
 }
@@ -219,15 +221,19 @@ main{
     margin-bottom: 70px;
 }
 .thai-img{
-    min-width: 100%;
+    position: relative;
+    padding-bottom: 57%;
+    width: 730px;
 }
 .thai-img img{
+    position: absolute;
+    object-fit: cover;
     width: 100%;
-    height: 375px;
+    height: 100%;
 }
 .thai-title{
     position: absolute;
-    bottom: 3px;
+    bottom: 0px;
     min-width: 100%;
     border-radius: 0 0 12px 12px;
     background-color: #FFFF;
@@ -244,19 +250,27 @@ main{
     margin-bottom: 50px;
 }
 .left .card .card-img{ 
-    width: 100%;
+    position: relative;
+    padding-bottom: 30%;
+    width: 286px;
 }
 .left .card .card-img img{
     width: 100%;
-    height: 214px;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
 }
 .left .card .card-info{
     display: flex;
     flex-direction: column;
-    padding-left: 20px;
+    margin-left: 20px;
+    max-width: 355px;
+}
+.left .card .card-text{
+    margin-top: 8px;
 }
 .left .card .card-info .author{
-    padding-left: 10px;
+    margin-top: 8px;
 }
 
 /* INTRO-CARDS RIGHT */
@@ -266,7 +280,6 @@ main{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    width: 75%;
 }
 .right .hello{
     display: flex;
@@ -276,6 +289,7 @@ main{
     background-color: #FFFF;
     border-radius: 12px;
     margin-bottom: 70px;
+    width: 350px;
 }
 .right .hello .h2-title{
     padding: 0 20px 0;
@@ -288,6 +302,7 @@ main{
     line-height: 32px;
     padding: 10px 20px 0;
     color: #495057;
+    text-align: center;
 }
 .right .hello img{
     padding-top: 30px;
@@ -306,20 +321,22 @@ main{
     align-items: center;
     background-color: #FFFF;
     border-radius: 12px;
-    padding-left: 10px;
+    padding: 20px;
 }
 .right .tags h2{
     align-self: flex-start;
+    padding: 0px;
 }
 .right .tag-nav{
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 10px;
 }
 .right .tag-nav a{
     color: #495057;
-    padding: 10px;
+    padding: 9px;
     border: 1px solid #DEE2E6;
     font-family: 'Montserrat';
     font-style: normal;
@@ -327,11 +344,14 @@ main{
     font-size: 10px;
     line-height: 14px;
     border-radius: 4px;
-    margin: 10px 15px;
+    margin: 0 15px 15px 0px;
+    transition: color .3s ease-in-out; 
+    background-color: .3s ease-in-out;
 }
 .right .tag-nav a:hover{
     background-color: #E6F0FF;
     color: #0D6EFD;
+    border: none;
 }
 
 /* MID-BANNER */
@@ -370,10 +390,6 @@ main{
 /* LATEST POSTS */
 
 .latest{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     margin: 0 200px 50px;
 }
 .latest .latest-title{
@@ -385,20 +401,26 @@ main{
     margin-bottom: 50px;
 }
 .latest .card-img{
-    width: 100%;
+    position: relative;
+    width: 445px;
+    padding-bottom: 20%;
+
 }
 .latest .card-img img{
     width: 100%;
-    height: 250px;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
 }
-.latest .card .h3-title{
-    padding: 10px 30px;
+.latest .card-info{
+    margin-left: 20px;
+    max-width: 434px;
 }
 .latest .card .author{
-    padding: 10px 30px;
+    margin-top: 8px;
 }
 .latest .card .card-text{
-    padding: 10px 200px 10px 30px ;
+    margin-top: 12px;
 }
 .latest button{
     margin: auto;
