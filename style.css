@@ -161,8 +161,6 @@ main{
 /* SLIDER */
 
 .slider{
-    display: flex;
-    flex-direction: column;
     position: relative;
 }
 .slider-img{
@@ -389,21 +387,20 @@ main{
     justify-content: center;
     align-items: flex-start;
     background-color: #FFFF;
-    padding: 20px 80px 20px 20px;
     border-radius: 6px;
     position: absolute;
     bottom: 32px;
     right: -3%;
 }
-.mid-text .h2-title{
-    padding: 20px;
-}
-.mid-text .author{
-    padding: 0 20px;
-}
 .mid-text .btn-blue{
     padding: 5px;
-    margin-left: 20px;
+    margin: 32px 0 8px 32px;
+}
+.mid-text .h2-title{
+    margin: 0 152px 8px 32px;
+}
+.mid-text .author{
+    margin: 0 0 32px 32px;
 }
 
 /* LATEST POSTS */

@@ -11,9 +11,13 @@ header .logo{
 header .btn-blue{
     margin-right: 10px;
 }
+.slider .slider-img{
+    width: 100vw;
+    padding-bottom: 82%;
+}
 .slider-text{
     position: absolute;
-    bottom: 3px;
+    bottom: 0px;
     left: 0;
     transform: none;
     width: 100%;
@@ -36,9 +40,28 @@ header .btn-blue{
 .intro-cards .left{
     margin-right: 0;
 }
+.thai-img{
+    padding-bottom: 68%;
+    width: 100%;
+}
+.thai-info{
+    width: 100%;
+}
 .intro-cards .right{
     display: none;
     transition: 0.3s;
+}
+.mid-banner{
+    margin: 0 20px 80px;
+}
+.banner-img{
+    width: 576px;
+    padding-bottom: 62%;
+    margin: 0%;
+}
+.mid-text{
+    bottom: 32px;
+    right: 15%;
 }
 .latest{
     margin: 0 20px 50px;
