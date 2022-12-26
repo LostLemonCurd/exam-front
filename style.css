@@ -387,10 +387,11 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    max-width: 445px;
     background-color: #FFFF;
     border-radius: 6px;
     position: absolute;
-    bottom: 32px;
+    bottom: 9%;
     right: -3%;
 }
 .mid-text .btn-blue{
@@ -398,7 +399,7 @@ main{
     margin: 32px 0 8px 32px;
 }
 .mid-text .h2-title{
-    margin: 0 152px 8px 32px;
+    margin: 0 0 8px 32px;
 }
 .mid-text .author{
     margin: 0 0 32px 32px;
