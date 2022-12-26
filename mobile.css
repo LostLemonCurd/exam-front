@@ -66,6 +66,16 @@ header .btn-blue{
 .latest{
     margin: 0 20px 50px;
 }
+.latest .card{
+    align-items: flex-start;
+}
+.latest .card .card-img{
+    width: 246px;
+    padding-bottom: 42%;
+}
+.latest .card .card-info{
+    width: 262px;
+}
 .nl{
     width: 100%;
 }

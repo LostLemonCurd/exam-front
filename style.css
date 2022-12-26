@@ -260,6 +260,7 @@ main{
     position: relative;
     padding-bottom: 30%;
     width: 286px;
+    min-width: 218px;
 }
 .left .card .card-img img{
     width: 100%;

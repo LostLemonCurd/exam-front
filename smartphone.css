@@ -19,7 +19,7 @@ main{
 }
 .slider-text{
     position: absolute;
-    bottom: 3px;
+    bottom: 0px;
     left: 0;
     transform: none;
     width: 100%;
