@@ -69,13 +69,18 @@ main{
     margin-left: 0;
 }
 .latest{
-    margin: 0 20px 50px 20px;
+    margin: 0 32px 50px 32px;
 }
 .latest .card{
     flex-direction: column;
 }
-.left .card .card-img{
+.latest .card .card-img{
     margin-bottom: 20px;
+    width: 100%;
+}
+.latest .card .card-info{
+    width: 100%;
+    margin-left: 0px;
 }
 .nl{
     width: 100%;

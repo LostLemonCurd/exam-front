@@ -477,7 +477,7 @@ main{
 .nl form{
     margin-bottom: 15px;
 }
-.nl .formulaire label{
+.nl .formulaire input{
     border: 1px solid #DEE2E6;
     border-radius: 5px;
     padding: 9px;
