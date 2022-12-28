@@ -25,15 +25,14 @@ main{
     padding: 0;
 }
 .slide-arrow{
-    top: 35%;
+    top: 10%;
 }
 .intro-cards{
-    margin: 30px 20px;
+    margin: 30px 32px;
 }
 .intro-cards .left{
     margin-right: 0;
     width: 100%;
-    margin: 0 32px;
 }
 .thai-img{
     padding-bottom: 105%;
@@ -48,28 +47,27 @@ main{
 }
 .left .card .card-info{
     padding-left: 0px;
-    align-items: center;
+    align-items: flex-start;
+    margin-left: 0;
 }
 .intro-cards .right{
     display: none;
     transition: 0.3s;
 }
-.mid-banner .banner-img{
-    width: calc(100% - 32px);
-    padding-bottom: 75%;
-}
 .mid-banner{
     margin: 0 0 50px;
 }
-.mid-text{
-    right: 55px;
-    bottom: 30%;
+.mid-banner .banner-img{
+    width: 100%;
+    padding-bottom: 121%;
 }
-.mid-text .btn-blue{
-    margin-left: 0;
+.mid-text{
+    left: 25px;
+    right: 25px;
+    bottom: 20%;
 }
 .latest{
-    margin: 0 32px 50px 32px;
+    margin: 0 32px 50px;
 }
 .latest .card{
     flex-direction: column;
@@ -95,6 +93,7 @@ main{
 }
 .nl .card-text{
     text-align: center;
+    margin: 0 10px;
 }
 .footer-nav{
     display: none;
