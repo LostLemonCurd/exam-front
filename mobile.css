@@ -8,10 +8,10 @@ header{
     width: 100%;
 }
 header .logo{
-    margin-left: 10px;
+    margin-left: 40px;
 }
 header .btn-blue{
-    margin-right: 10px;
+    margin-right: 40px;
 }
 
 /* SLIDER */
@@ -65,7 +65,7 @@ main{
 
 /* CARD-INFO */
 .left .card .card-info{
-    margin-left: 5px;
+    margin-left: 17px;
 }
 
 /* RIGHT */
@@ -95,6 +95,9 @@ main{
 }
 .latest .card .card-img{
     min-width: 246px;
+}
+.latest .card-info{
+    margin-left: 16px;
 }
 
 /* NEWSLETTER */ 
