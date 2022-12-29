@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-body{
-    margin: auto;
-    box-sizing: border-box;
-}
-
 /* Library */
+
 img{
     border-radius: 12px;
 }
@@ -114,6 +110,12 @@ a{
     text-decoration: none;
 }
 
+/* BODY */
+
+body{
+    box-sizing: border-box;
+}
+
 /* HEADER */
 
 header{
@@ -165,8 +167,8 @@ main{
 }
 .slider-img{
     position: relative;
-    width: 1440px;
-    padding-bottom: 36%;
+    width: 100%;
+    height: 33em;
 }
 .slider-img img{
     width: 100%;
@@ -218,10 +220,7 @@ main{
 
 .intro-cards{
     display: flex;
-    margin: 50px 200px;
-}
-.intro-cards .left{
-    margin-right: 30px;
+    margin: 50px 165px;
 }
 .thailand{
     position: relative;
@@ -229,7 +228,7 @@ main{
 }
 .thai-img{
     position: relative;
-    padding-bottom: 57%;
+    height: 25.8em;
     width: 730px;
 }
 .thai-img img{
@@ -254,13 +253,14 @@ main{
 }
 .left .card{
     display: flex;
+    align-items: center;
     margin-bottom: 50px;
 }
 .left .card .card-img{ 
     position: relative;
-    padding-bottom: 30%;
-    width: 286px;
+    width: 17.9em;
     min-width: 218px;
+    height: 13.4em;
 }
 .left .card .card-img img{
     width: 100%;
@@ -288,6 +288,7 @@ main{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    margin-left: 30px;
 }
 .right .hello{
     display: flex;
@@ -320,9 +321,9 @@ main{
     margin-bottom: 24px;
 }
 .social a{
-    padding-right: 20px;
+    margin-right: 20px;
 }
-.right .hello .social img{
+.social img{
     border-radius: 0px;
 }
 .right .tags{
@@ -369,8 +370,8 @@ main{
 
 .banner-img{
     position: relative;
-    width: 1110px;
-    padding-bottom: 36%;
+    width: 100%;
+    height: 23.5em;
 }
 .banner-img img{
     width: 100%;
@@ -379,7 +380,7 @@ main{
     object-fit: cover;
 }
 .mid-banner{
-    margin: 0 200px 80px;
+    margin: 0 165px 80px;
     position: relative;
 }
 .mid-text{
@@ -392,7 +393,7 @@ main{
     border-radius: 6px;
     position: absolute;
     bottom: 9%;
-    right: -3%;
+    right: 3%;
 }
 .mid-text .btn-blue{
     padding: 5px;
@@ -408,7 +409,7 @@ main{
 /* LATEST POSTS */
 
 .latest{
-    margin: 0 200px 50px;
+    margin: 0 165px 50px;
 }
 .latest .latest-title{
     margin-bottom: 50px;
@@ -420,9 +421,9 @@ main{
 }
 .latest .card-img{
     position: relative;
-    width: 445px;
-    padding-bottom: 24%;
-
+    width: 40%;
+    min-width: 245px;
+    height: 15.6em;
 }
 .latest .card-img img{
     width: 100%;
@@ -505,7 +506,9 @@ main{
 }
 
 /* FOOTER */
+
 /* NAV */
+
 footer{
     padding: 50px 0 0;
 }
@@ -514,13 +517,16 @@ footer{
     justify-content: space-between;
     align-items: center;
     padding-bottom: 50px;
-    margin: 0 200px;
+    margin: 0 165px;
 }
 .footer-nav nav{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+}
+.footer-nav nav a:hover{
+    text-decoration: underline;
 }
 .footer-nav nav .new-nav::after{
     content: "NEW";
@@ -539,12 +545,6 @@ footer .legal{
     display: flex;
     justify-content: space-between;
     padding: 20px 0;
-    margin: 0 200px;
+    margin: 0 165px;
     border-top: 1px solid #DEE2E6;
-}
-footer .legal .social a{
-    padding-right: 20px;
-}
-footer .legal .social a img{
-    border-radius: 0px;
 }

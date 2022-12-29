@@ -17,8 +17,7 @@ header .btn-blue{
 /* SLIDER */
 
 .slider .slider-img{
-    width: 100vw;
-    padding-bottom: 82%;
+    width: 100%;
 }
 .slider-text{
     position: absolute;
@@ -39,11 +38,14 @@ header .btn-blue{
 .slide-arrow{
     top: 35%;
 }
-
+/* MAIN */
+main{
+    padding-bottom: 0;
+}
 /* INTRO CARDS */
 
 .intro-cards{
-    margin: 50px 32px;
+    margin: 50px 40px;
 }
 
 /* LEFT */
@@ -55,11 +57,15 @@ header .btn-blue{
 /* THAILAND */
 
 .thai-img{
-    padding-bottom: 68%;
     width: 100%;
 }
 .thai-info{
     width: 100%;
+}
+
+/* CARD-INFO */
+.left .card .card-info{
+    margin-left: 5px;
 }
 
 /* RIGHT */
@@ -72,31 +78,23 @@ header .btn-blue{
 /* MID BANNER */
 
 .mid-banner{
-    margin: 0 32px 80px;
-}
-.banner-img{
-    width: 576px;
-    padding-bottom: 62%;
+    margin: 0 40px 80px;
 }
 .mid-text{
     bottom: 32px;
-    right: 15%;
+    right: 32px;
 }
 
 /* LATEST */
 
 .latest{
-    margin: 0 32px 50px;
+    margin: 0 40px 50px;
 }
 .latest .card{
     align-items: flex-start;
 }
 .latest .card .card-img{
-    width: 246px;
-    padding-bottom: 42%;
-}
-.latest .card .card-info{
-    width: 262px;
+    min-width: 246px;
 }
 
 /* NEWSLETTER */ 
@@ -111,7 +109,7 @@ header .btn-blue{
     display: none;
 }
 footer .legal{
-    margin: 0 20px;
+    margin: 0 40px;
 }
 footer .legal strong{
     display: none;

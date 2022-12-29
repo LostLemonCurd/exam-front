@@ -1,3 +1,5 @@
+/* HEADER */
+
 header nav{
     display: none;
     transition: 0.3s;
@@ -8,12 +10,15 @@ header{
 header .btn-blue{
     margin-right: 10px;
 }
+
+/* MAIN */
+
 main{
     padding: 0;
 }
-.slider-text .slider-title br{
-    display: none;
-}
+
+/* SLIDER */
+
 .slider-text{
     position: absolute;
     bottom: 0px;
@@ -24,50 +29,51 @@ main{
     border-radius: 0;
     padding: 0;
 }
-.slide-arrow{
-    top: 10%;
-}
+
+/* INTRO CARDS */
+
 .intro-cards{
-    margin: 30px 32px;
+    margin: 50px 40px;
 }
 .intro-cards .left{
     margin-right: 0;
     width: 100%;
-}
-.thai-img{
-    padding-bottom: 105%;
 }
 .left .card{
     flex-direction: column;
 }
 .left .card .card-img{
     margin-bottom: 20px;
-    padding-bottom: 75%;
     width: 100%;
 }
 .left .card .card-info{
     padding-left: 0px;
     align-items: flex-start;
-    margin-left: 0;
+    margin-left: 5px;
 }
 .intro-cards .right{
     display: none;
     transition: 0.3s;
 }
+
+/* BANNER */
+
 .mid-banner{
     margin: 0 0 50px;
 }
 .mid-banner .banner-img{
     width: 100%;
-    padding-bottom: 121%;
 }
 .mid-text{
     left: 25px;
     right: 25px;
     bottom: 20%;
 }
+
+/* LATEST */
+
 .latest{
-    margin: 0 32px 50px;
+    margin: 0 40px 50px;
 }
 .latest .card{
     flex-direction: column;
@@ -80,6 +86,9 @@ main{
     width: 100%;
     margin-left: 0px;
 }
+
+/* NEWSLETTER */
+
 .nl{
     width: 100%;
     justify-content: center;
@@ -95,11 +104,14 @@ main{
     text-align: center;
     margin: 0 10px;
 }
+
+/* FOOTER */
+
 .footer-nav{
     display: none;
 }
 footer .legal{
-    margin: 0 20px;
+    margin: 0 40px;
 }
 footer .legal strong{
     display: none;
