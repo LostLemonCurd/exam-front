@@ -245,7 +245,7 @@ main{
 .thai-info{
     position: absolute;
     bottom: 0px;
-    min-width: 100%;
+    width: 100%;
     border-radius: 0 0 12px 12px;
     background-color: #FFFF;
     opacity: 0.8;
