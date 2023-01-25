@@ -225,6 +225,7 @@ main{
 
 .intro-cards{
     display: flex;
+    justify-content: center;
     margin: 50px 165px;
 }
 .thailand{
